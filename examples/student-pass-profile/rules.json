@@ -1,0 +1,9 @@
+{
+  "title": "Демонстрационные правила для пропуска студента",
+  "version": "student-pass-1",
+  "demo": true,
+  "notice": "Учебный пример профиля. Не является нормативным актом.",
+  "clauses": [
+    {"id": "P-1.1", "document_type": "student_pass", "text": "Пропуск студента содержит ФИО, учебную группу, номер и дату выдачи.", "topics": ["пропуск", "комплектность"], "required_fields": ["student_name", "group", "document_number", "issue_date"]}
+  ]
+}

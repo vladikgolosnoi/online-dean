@@ -1,0 +1,6 @@
+[
+  {"id":"study", "file":"study.png", "question":"Хватит ли справки для перевода?"},
+  {"id":"leave", "file":"leave.png", "question":"Можно ли принять заявление на академический отпуск?"},
+  {"id":"internship", "file":"internship.png", "question":"Достаточно ли данных для зачёта практики?"},
+  {"id":"unknown", "file":"study.png", "question":"Какая стоимость обучения?"}
+]

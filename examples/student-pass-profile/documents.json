@@ -1,0 +1,12 @@
+{
+  "student_pass": {
+    "label": "Пропуск студента",
+    "markers": ["пропуск студента", "студенческий пропуск"],
+    "fields": {
+      "student_name": {"label": "ФИО студента", "aliases": ["ФИО", "Студент"], "kind": "text"},
+      "group": {"label": "Учебная группа", "aliases": ["Группа"], "kind": "text"},
+      "document_number": {"label": "Номер пропуска", "aliases": ["Номер пропуска", "№"], "kind": "text"},
+      "issue_date": {"label": "Дата выдачи", "aliases": ["Дата выдачи", "Выдан"], "kind": "date"}
+    }
+  }
+}

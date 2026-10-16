@@ -1,0 +1,48 @@
+[
+  {
+    "id": "study",
+    "file": "study.png",
+    "document_type": "study_certificate",
+    "fields": {
+      "student_name": "Иванов Иван Иванович",
+      "university": "Донской учебный университет",
+      "program": "09.03.01 Информатика",
+      "study_mode": "Очная",
+      "study_period": "01.09.2025 - 30.06.2026",
+      "document_number": "142/26"
+    },
+    "missing": [
+      "issue_date"
+    ]
+  },
+  {
+    "id": "leave",
+    "file": "leave.png",
+    "document_type": "academic_leave",
+    "fields": {
+      "student_name": "Петрова Анна Сергеевна",
+      "group": "ИС-201",
+      "course": "2",
+      "reason": "По семейным обстоятельствам",
+      "start_date": "01.11.2026",
+      "end_date": "31.08.2027",
+      "application_date": "14.10.2026"
+    },
+    "missing": []
+  },
+  {
+    "id": "internship",
+    "file": "internship.png",
+    "document_type": "internship_certificate",
+    "fields": {
+      "student_name": "Смирнов Алексей Олегович",
+      "organization": "ООО Учебные технологии",
+      "internship_period": "01.07.2026 - 28.07.2026",
+      "supervisor": "Соколова Елена Викторовна",
+      "grade": "Отлично",
+      "document_number": "78/26",
+      "issue_date": "30.07.2026"
+    },
+    "missing": []
+  }
+]

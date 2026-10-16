@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: online-dean-demo
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/ready
+    autoDeployTrigger: commit
+    envVars:
+      - key: DEAN_PUBLIC_DEMO
+        value: "true"

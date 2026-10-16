@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>API · Онлайн-деканат</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/api.js" defer></script>
+</head>
+<body>
+  <main class="api-page">
+    <a class="api-back" href="/">← К проверке документов</a>
+    <div class="eyebrow">ТЕХНИЧЕСКАЯ ДОКУМЕНТАЦИЯ</div>
+    <h1>API Онлайн-деканата</h1>
+    <p class="subtitle">Локальный HTTP API для анализа документов, уточняющих вопросов и выгрузки протоколов.</p>
+
+    <section class="card api-intro">
+      <h2>Быстрый запрос</h2>
+      <pre><code>curl.exe -F "file=@document.png" -F "question=Содержит ли документ все обязательные сведения?" -F "document_type=auto" http://127.0.0.1:8000/api/analyze</code></pre>
+      <p>Ответ содержит идентификатор сессии, классификацию, поля с координатами источников, ответ и снимок применённых правил. Сессия действует 30 минут неактивности.</p>
+    </section>
+
+    <section class="api-contract">
+      <h2>Общие правила</h2>
+      <div class="api-contract-grid">
+        <div><strong>Форматы</strong><span>PNG, JPG, JPEG, PDF</span></div>
+        <div><strong>Ограничения</strong><span>до 15 МБ, до 5 страниц PDF</span></div>
+        <div><strong>Адрес</strong><span>только localhost</span></div>
+      </div>
+    </section>
+
+    <div id="endpoints" aria-live="polite"></div>
+  </main>
+</body>
+</html>
